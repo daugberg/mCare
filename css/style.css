@@ -642,6 +642,54 @@ body.mobile-nav-active #mobile-nav-toggle {
 #clients .owl-dot.active {
     background-color: #50d8af;
 }
+#clients2 {
+    padding: 30px 0 0 0;
+}
+#clients2 .box {
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+    background: #fff;
+    transition: 0.4s;
+}
+#clients2 .box:hover {
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+}
+#clients2 .box .icon {
+    float: left;
+}
+#clients2 .box .icon i {
+    color: #444;
+    font-size: 64px;
+    transition: 0.5s;
+    line-height: 0;
+    margin-top: 34px;
+}
+#clients2 .box .icon i:before {
+    background: #0c2e8a;
+    background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#clients2 .box h4 {
+    margin-left: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+#clients2 .box h4 a {
+    color: #444;
+}
+#clients2 .box p {
+    font-size: 14px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
 
 /* Our Portfolio Section
 --------------------------------*/
@@ -842,6 +890,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 
+iframe {
+    width: 100%;
+    height: 380px;
+    border: 0;
+}
 #contact {
     padding: 30px 0;
 }
