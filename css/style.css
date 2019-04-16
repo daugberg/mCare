@@ -1382,7 +1382,7 @@ ul li {
 }
 .cd-single-point .cd-more-info {
     position: fixed;
-    top: 0;
+    top: 74px;
     left: 0;
     z-index: 3;
     width: 100%;
